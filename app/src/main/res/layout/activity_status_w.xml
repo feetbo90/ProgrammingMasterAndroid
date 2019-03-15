@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".statusWA">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Humor"
+        android:id="@+id/humor"
+        android:textSize="20pt"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/cinta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Cinta"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kata Bijak"
+        android:id="@+id/katabijak"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mantan"
+        android:id="@+id/mantan"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kekinian"
+        android:id="@+id/kekinian"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sendiri"
+        android:id="@+id/sendiri"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jomblo"
+        android:id="@+id/jomblo"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gombal"
+        android:id="@+id/gombal"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        />
+
+
+</LinearLayout>
