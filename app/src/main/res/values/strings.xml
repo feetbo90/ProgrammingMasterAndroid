@@ -3,4 +3,6 @@
     <string name="hallo">Hallo</string>
     <string name="hallo2">Hallo 2</string>
     <string name="baru">Baru</string>
+    <string name="masukkanNama">Masukkan Nama</string>
+    <string name="tekan">Tekan</string>
 </resources>

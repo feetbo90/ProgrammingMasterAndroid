@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Penjumlahan">
+        <activity android:name=".FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,9 @@
         <activity android:name=".RelativeActivity" />
         <activity android:name=".linearDanRelative" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".statusWA"></activity>
+        <activity android:name=".statusWA" />
+        <activity android:name=".Penjumlahan" />
+        <activity android:name=".SecondActivity"/>
     </application>
 
 </manifest>
