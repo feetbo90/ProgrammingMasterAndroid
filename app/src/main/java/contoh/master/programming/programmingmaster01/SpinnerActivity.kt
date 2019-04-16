@@ -43,9 +43,13 @@ class SpinnerActivity : AppCompatActivity() {
     }*/
 
     fun setImage(gambar : String) {
-        if(gambar.trim() == "Earth")
+        if(gambar.trim() == "Earth") {
         image.setImageResource(R.drawable.bumi)
-        else
+            text.setText("Bumi adalah planet ke 3")
+        }
+        else if(gambar.trim() == "Mercury")
             image.setImageResource(R.mipmap.ic_launcher)
+        else if(gambar.trim() == "Mars")
+            image.setImageResource(R.mipmap.ic_launcher_round)
     }
 }
