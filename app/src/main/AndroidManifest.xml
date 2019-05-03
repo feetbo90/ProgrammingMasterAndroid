@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SpinnerActivity">
+        <activity android:name=".RadioButtonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +22,9 @@
         <activity android:name=".statusWA" />
         <activity android:name=".Penjumlahan" />
         <activity android:name=".SecondActivity" />
-        <activity android:name=".FirstActivity"/>
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".CheckBoxActivity"/>
     </application>
 
 </manifest>

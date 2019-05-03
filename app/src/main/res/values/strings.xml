@@ -5,5 +5,9 @@
     <string name="baru">Baru</string>
     <string name="masukkanNama">Masukkan Nama</string>
     <string name="tekan">Tekan</string>
+    <string name="pilihanPertama">Pilih ( pertama )</string>
+    <string name="pilihanKedua">PIlihan Kedua</string>
+    <string name="pirates">Bajak Laut</string>
+    <string name="ninjas">Ninja</string>
 
 </resources>
